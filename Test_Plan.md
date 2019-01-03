@@ -36,7 +36,7 @@ which define the variable to be tested.
 
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
-| Validators       | 300         | 600         | 1000        |
+| Miners       | 300         | 600         | 1000        |
 | Static Nodes     | 600         | 600         | 600         |
 | Bandwidth        | 5Mb         | 5Mb         | 5Mb         |
 | Propagation Time | 8s          | 8s          | 8s          |
@@ -46,7 +46,7 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
-| Validators      | 600         | 600         | 600         |
+| Miners      | 600         | 600         | 600         |
 | Static Nodes    | 300         | 600         | 1000        |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 0ms         | 0ms         | 0ms         |
@@ -57,7 +57,7 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B   | Test Case C   |
 |-----------------|------------:|--------------:|--------------:|
-| Validators      | 1000        | 1000          | 1000          |
+| Miners      | 1000        | 1000          | 1000          |
 | Static Nodes    | 1000        | 1000          | 1000          |
 | Bandwidth       | 5Mb         | 5Mb           | 5Mb           |
 | Network Latency | 0ms         | 0ms           | 0ms           |
@@ -68,7 +68,7 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
-| Validators      | 1000        | 1000        | 1000        |
+| Miners      | 1000        | 1000        | 1000        |
 | Static Nodes    | 1000        | 1000        | 1000        |
 | Bandwidth       | 5Mb         | 500Mb       | 1G          |
 | Network Latency | 0ms         | 0ms         | 0ms         |
@@ -79,7 +79,7 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
-| Validators      | 1000        | 1000        | 1000        |
+| Miners      | 1000        | 1000        | 1000        |
 | Static Nodes    | 1000        | 1000        | 1000        |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 25ms        | 50ms        | 100ms       |
@@ -90,7 +90,7 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
-| Validators      | 1000        | 1000        | 1000        |
+| Miners      | 1000        | 1000        | 1000        |
 | Static Nodes    | 1000        | 1000        | 1000        |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 0ms         | 0ms         | 0ms         |
@@ -101,7 +101,7 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
-| Validators      | 1000        | 500         | 300         |
+| Miners      | 1000        | 500         | 300         |
 | Static Nodes    | 2000        | 2000        | 2000        |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 50ms        | 50ms        | 50ms        |
