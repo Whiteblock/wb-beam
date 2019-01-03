@@ -1,6 +1,6 @@
 # BUILDING
 
-*For internal testing using Umba, compile via Dockerfile.*
+*For internal testing using Umba. Dockerfile added for reference.*
 
 ## Two Commands
 - `beam-wallet` 
@@ -33,16 +33,16 @@ _At this point, I set up beam node_
 
 _And back to wallet_ 
 - Sync with node and listen
-  - `beam-wallet --command listen -n <node address and port, ex: 127.0.0.1:10000`
+  - `beam-wallet --command listen -n 10.1.0.2:8100`
 
 _Additional Commands_
 - Get Wallet Info
   - `beam-wallet --command=info`
 - SBBS
   - Generate new address
-    - `beam-wallet --command=new_addr -n 127.0.0.1:10000 //--listen`
+    - `beam-wallet --command=new_addr -n 10.1.0.2:8100 //--listen`
   - Sending beams
-    - `beam-wallet --command=send -n 127.0.0.1:10000 -r 77de6bd3de40bc58ab7e4fb68d5e0596fd1e72f3c4fb3eb3d106082d89264909 -a 11.3 -f 0.2`
+    - `beam-wallet --command=send -n 10.1.0.2:8100 -r 77de6bd3de40bc58ab7e4fb68d5e0596fd1e72f3c4fb3eb3d106082d89264909 -a 11.3 -f 0.2`
 
 ## NOTES
 
