@@ -37,7 +37,7 @@ which define the variable to be tested.
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
 | Miners       | 300         | 600         | 1000        |
-| Nodes     | 600         | 600         | 600         |
+| Non-Miner Nodes     | 600         | 600         | 600         |
 | Bandwidth        | 5Mb         | 5Mb         | 5Mb         |
 
 
