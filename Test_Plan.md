@@ -32,7 +32,7 @@ series focuses on observing and documenting the effects of certain conditions
 on performance. Each test series is comprised of three separate test cases
 which define the variable to be tested. 
 
-### Series 1: Number of Validators
+### Series 1: Number of Miners
 
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
@@ -41,7 +41,7 @@ which define the variable to be tested.
 | Bandwidth        | 5Mb         | 5Mb         | 5Mb         |
 
 
-### Series 2: Number of Static Nodes
+### Series 2: Number of Non-Miner Nodes
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -52,18 +52,8 @@ which define the variable to be tested.
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 3: Contract
 
-| Variable        | Test Case A | Test Case B   | Test Case C   |
-|-----------------|------------:|--------------:|--------------:|
-| Miners      | 1000        | 1000          | 1000          |
-| Non-Miner Nodes    | 1000        | 1000          | 1000          |
-| Bandwidth       | 5Mb         | 5Mb           | 5Mb           |
-| Network Latency | 0ms         | 0ms           | 0ms           |
-| Packet Loss     | 0.01%       | 0.5%          | 1.0%          |
-
-
-### Series 4: Bandwidth
+### Series 3: Bandwidth
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -74,7 +64,7 @@ which define the variable to be tested.
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 5: Network Latency
+### Series 4: Network Latency
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -85,7 +75,7 @@ which define the variable to be tested.
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 6: Packet Loss
+### Series 5: Packet Loss
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -96,7 +86,7 @@ which define the variable to be tested.
 | Packet Loss     | 0.01%       | 0.5%        | 1.0%        |
 
 
-### Series 7: Stress Test
+### Series 6: Stress Test
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
