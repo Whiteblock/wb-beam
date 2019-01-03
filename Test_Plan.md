@@ -32,13 +32,20 @@ series focuses on observing and documenting the effects of certain conditions
 on performance. Each test series is comprised of three separate test cases
 which define the variable to be tested. 
 
+Num of Txs???
+Stress test???
+Size of tx???
+
 ### Series 1: Number of Miners
 
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
 | Miners       | 300         | 600         | 1000        |
 | Non-Miner Nodes     | 600         | 600         | 600         |
+| Number of Txs |  xxxx  |  xxxx  |   xxxx    |   xxxx   |
 | Bandwidth        | 5Mb         | 5Mb         | 5Mb         |
+| Network Latency | 0ms         | 0ms         | 0ms         |
+| Packet Loss     | 0%          | 0%          | 0%          |
 
 
 ### Series 2: Number of Non-Miner Nodes
@@ -47,6 +54,7 @@ which define the variable to be tested.
 |-----------------|------------:|------------:|------------:|
 | Miners      | 600         | 600         | 600         |
 | Non-Miner Nodes    | 300         | 600         | 1000        |
+| Number of Txs |  xxxx  |  xxxx  |   xxxx    |   xxxx   |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
@@ -59,6 +67,7 @@ which define the variable to be tested.
 |-----------------|------------:|------------:|------------:|
 | Miners      | 1000        | 1000        | 1000        |
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
+| Number of Txs |  xxxx  |  xxxx  |   xxxx    |   xxxx   |
 | Bandwidth       | 5Mb         | 500Mb       | 1G          |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
@@ -81,6 +90,7 @@ which define the variable to be tested.
 |-----------------|------------:|------------:|------------:|
 | Miners      | 1000        | 1000        | 1000        |
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
+| Number of Txs |  xxxx  |  xxxx  |   xxxx    |   xxxx   |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0.01%       | 0.5%        | 1.0%        |
