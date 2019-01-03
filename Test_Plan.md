@@ -37,9 +37,8 @@ which define the variable to be tested.
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
 | Miners       | 300         | 600         | 1000        |
-| Static Nodes     | 600         | 600         | 600         |
+| Nodes     | 600         | 600         | 600         |
 | Bandwidth        | 5Mb         | 5Mb         | 5Mb         |
-| Propagation Time | 8s          | 8s          | 8s          |
 
 
 ### Series 2: Number of Static Nodes
@@ -47,7 +46,7 @@ which define the variable to be tested.
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
 | Miners      | 600         | 600         | 600         |
-| Static Nodes    | 300         | 600         | 1000        |
+| Non-Miner Nodes    | 300         | 600         | 1000        |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
@@ -58,7 +57,7 @@ which define the variable to be tested.
 | Variable        | Test Case A | Test Case B   | Test Case C   |
 |-----------------|------------:|--------------:|--------------:|
 | Miners      | 1000        | 1000          | 1000          |
-| Static Nodes    | 1000        | 1000          | 1000          |
+| Non-Miner Nodes    | 1000        | 1000          | 1000          |
 | Bandwidth       | 5Mb         | 5Mb           | 5Mb           |
 | Network Latency | 0ms         | 0ms           | 0ms           |
 | Packet Loss     | 0.01%       | 0.5%          | 1.0%          |
@@ -69,7 +68,7 @@ which define the variable to be tested.
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
 | Miners      | 1000        | 1000        | 1000        |
-| Static Nodes    | 1000        | 1000        | 1000        |
+| Non-Miner Nodes    | 1000        | 1000        | 1000        |
 | Bandwidth       | 5Mb         | 500Mb       | 1G          |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
@@ -80,7 +79,7 @@ which define the variable to be tested.
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
 | Miners      | 1000        | 1000        | 1000        |
-| Static Nodes    | 1000        | 1000        | 1000        |
+| Non-Miner Nodes    | 1000        | 1000        | 1000        |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 25ms        | 50ms        | 100ms       |
 | Packet Loss     | 0%          | 0%          | 0%          |
@@ -91,7 +90,7 @@ which define the variable to be tested.
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
 | Miners      | 1000        | 1000        | 1000        |
-| Static Nodes    | 1000        | 1000        | 1000        |
+| Non-Miner Nodes    | 1000        | 1000        | 1000        |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0.01%       | 0.5%        | 1.0%        |
@@ -102,7 +101,7 @@ which define the variable to be tested.
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
 | Miners      | 1000        | 500         | 300         |
-| Static Nodes    | 2000        | 2000        | 2000        |
+| Non-Miner Nodes    | 2000        | 2000        | 2000        |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 50ms        | 50ms        | 50ms        |
 | Packet Loss     | 0.01%       | 0.01%       | 0.01%       |
