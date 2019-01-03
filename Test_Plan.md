@@ -85,14 +85,3 @@ which define the variable to be tested.
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0.01%       | 0.5%        | 1.0%        |
 
-
-### Series 6: Stress Test
-
-| Variable        | Test Case A | Test Case B | Test Case C |
-|-----------------|------------:|------------:|------------:|
-| Miners      | 1000        | 500         | 300         |
-| Non-Miner Nodes    | 2000        | 2000        | 2000        |
-| Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
-| Network Latency | 50ms        | 50ms        | 50ms        |
-| Packet Loss     | 0.01%       | 0.01%       | 0.01%       |
-
