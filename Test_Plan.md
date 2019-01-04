@@ -95,7 +95,6 @@ which define the variable to be tested.
 | Miners      | 1000        | 1000        | 1000        |
 | Transaction Nodes    | 1000        | 1000        | 1000        |
 | Number of Txs Per Node Per Second|  100  |  100  |   100     |
-| Non-Miner Nodes    | 1000        | 1000        | 1000        |
 | Bandwidth       | 1Gb        | 1Gb         | 1Gb        |
 | __Network Latency__ | 25ms        | 50ms        | 100ms       |
 | Packet Loss     | 0%          | 0%          | 0%          |
