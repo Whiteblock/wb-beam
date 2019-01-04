@@ -33,10 +33,10 @@ coordinating the tests.  Assuming the coordinating node's clock hasn't been temp
 
 | Value			            | Description | 
 | ------------------------- | -------- | 
-| Peer Discovery Time	        | The length of time it takes for a node to become aware of its peers within the network. | 
-| Block Propagation Time    | The length of time it takes for a block to be received by all nodes within the network. |
-| Orphan Rate    	        | The frequency at which orphan blocks are mined and broadcast.                           | 
-| Transactions Throughput   | The total amount of transactions which can be successfully processed per second.  |
+| Peer Discovery Time	(ms)        | The length of time it takes for a node to become aware of its peers within the network. | 
+| Block Propagation Time (ms)   | The length of time it takes for a block to be received by all nodes within the network. |
+| Orphan Rate (%)	        | The frequency at which orphan blocks are mined and broadcast. |
+| Transactions Throughput (tx/s)  | The total amount of transactions which can be successfully processed per second.  |
 
 
 ## Performance Tests
