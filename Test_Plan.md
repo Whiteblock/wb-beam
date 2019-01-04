@@ -53,9 +53,9 @@ which define the variable to be tested.
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
 | Miners           | 10          | 20          | 30          |
-| Transaction Node | 22          | 12          | 2           |
+| Transaction Nodes| 22          | 12          | 2           |
 | Sent Tx Per Node |  100        |  100        | 100         |
-| Bandwidth        | 1Gb         | 1Gb         | 1GMb        |
+| Bandwidth        | 1Gb         | 1Gb         | 1Gb         |
 | Network Latency  | 0ms         | 0ms         | 0ms         |
 | Packet Loss      | 0%          | 0%          | 0%          |
 
