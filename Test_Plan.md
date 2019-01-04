@@ -63,8 +63,19 @@ which define the variable to be tested.
 | Network Latency  | 0ms         | 0ms         | 0ms         |
 | Packet Loss      | 0%          | 0%          | 0%          |
 
+### Series 2: Number of Transaction Nodes
 
-### Series 2: Number of Transactions per Node
+| Variable         | Test Case A | Test Case B | Test Case C |
+|------------------|------------:|------------:|------------:|
+| Miners           | 10          | 10          | 10          |
+| __Transaction Nodes__| 22           | 15           | 7           |
+| Sent Tx Per Node | 100         | 100         | 100         |
+| Bandwidth        | 1Gb         | 1Gb         | 1Gb         |
+| Network Latency  | 0ms         | 0ms         | 0ms         |
+| Packet Loss      | 0%          | 0%          | 0%          |
+
+
+### Series 3: Number of Transactions per Node
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -76,7 +87,7 @@ which define the variable to be tested.
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 3: Bandwidth
+### Series 4: Bandwidth
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -88,7 +99,7 @@ which define the variable to be tested.
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 4: Network Latency
+### Series 5: Network Latency
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -100,7 +111,7 @@ which define the variable to be tested.
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 5: Packet Loss
+### Series 6: Packet Loss
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
