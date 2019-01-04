@@ -1,4 +1,4 @@
-# WB Beam Test Plan: 
+# WB Beam Test Plan Skeleton:  
 
 ## Test Procedure
 
@@ -32,9 +32,7 @@ series focuses on observing and documenting the effects of certain conditions
 on performance. Each test series is comprised of three separate test cases
 which define the variable to be tested. 
 
-Num of Txs???
-Stress test???
-Size of tx???
+(_Note_: The numbers listed below are subjected to change)
 
 ### Series 1: Number of Miners
 
