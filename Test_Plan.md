@@ -130,3 +130,6 @@ which define the variable to be tested.
 ### TODO: 
 
 USE Method Measurements
+- Utility (Measured by Average Utilization Rate)
+- Saturation (Measured by Average Queue Length)
+- Error (Measured by Error Count during a period of time)
