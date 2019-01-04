@@ -1,4 +1,4 @@
-# WB Beam Test Plan Skeleton:  
+# Beam Test Plan:  
 
 ## Test Procedure
 
@@ -9,20 +9,34 @@ Per test case:
 4. Configure actions and behavior between nodes according to specified test case
 5. Output performance data in CSV format
 6. Aggregate data, parse, & present data
-8. Push data to appropriate repo
+8. Push data to appropriate repo, if necessary
 9. Reset environment
 
+## Test Utilities  
 
-## Test Environment
+Tests will be conducted using the [Whiteblock](https://www.whiteblock.io) testing platform, a cloud-based SaaS solution. The Whiteblock framework will build and manage the P2P network topology and automate particulate actions in accordance with the proposed scope of work outlined within this document. 
 
-The proposed testing initiatives will be conducted within the Whiteblock test
-lab on a group of 6 rack mounted chassis servers.
+## Node Specifications
 
-Should testing initiatives require additional computational resources or
-demand a higher overhead than can be adequately provided within the proposed
-environment, the Whiteblock cloud-based solution can be used. However, in the
-interest of cost-effectiveness, the current on-premises lab setup can
-adequately provide the current scope of work. 
+| Component   | Value                                          |
+|-------------|------------------------------------------------|
+| RAM         | 4GB DDR4                                       |
+| CPU         | Intel Xeon Scalable Processor (Skylake)        |
+| Single-Core Max Turbo Frequency  | 3.5 Ghz                   |
+| Total Node Count  | 32                                       |
+
+
+## Performance Metrics
+
+Time measurements are expressed in terms of the time passed on the node
+coordinating the tests.  Assuming the coordinating node's clock hasn't been tempered with.
+
+| Value			            | Description | 
+| ------------------------- | -------- | 
+| Bootstrap Time	        | The length of time it takes for a node to become aware of its peers within the network. | 
+| Block Propagation Time    | The length of time it takes for a block to be received by all nodes within the network. |
+| Orphan Rate    	        | The frequency at which orphan blocks are mined and broadcast.                           | 
+| Transactions Per Second   | The total amount of transactions which can be successfully processed per second. Transaction time begins when a transaction is submitted and ends when the UTXO is transferred to the receiving account. |
 
 
 ## Performance Tests
@@ -38,13 +52,12 @@ which define the variable to be tested.
 
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
-| __Miners__       | 300         | 600         | 1000        |
-| Non-Miner Nodes     | 600         | 600         | 600         |
-| Number of Txs Per Node |  100  |  100  |   100     |
-| Size of Txs |  10Mb  |  10Mb  |   10Mb     |
-| Bandwidth        | 5Mb         | 5Mb         | 5Mb         |
-| Network Latency | 0ms         | 0ms         | 0ms         |
-| Packet Loss     | 0%          | 0%          | 0%          |
+| Miners           | 10          | 20          | 30          |
+| Transaction Node | 22          | 12          | 2           |
+| Sent Tx Per Node |  100        |  100        | 100         |
+| Bandwidth        | 1Gb         | 1Gb         | 1GMb        |
+| Network Latency  | 0ms         | 0ms         | 0ms         |
+| Packet Loss      | 0%          | 0%          | 0%          |
 
 
 ### Series 2: Number of Transactions per Node

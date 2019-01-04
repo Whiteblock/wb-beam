@@ -40,7 +40,7 @@ _Additional Commands_
   - `beam-wallet --command=info`
 - SBBS
   - Generate new address
-    - `beam-wallet --command=new_addr -n 10.1.0.2:8100 //--listen`
+    - `beam-wallet --command=new_addr -n 10.1.0.2:8100 --listen`
   - Sending beams
     - `beam-wallet --command=send -n 10.1.0.2:8100 -r 77de6bd3de40bc58ab7e4fb68d5e0596fd1e72f3c4fb3eb3d106082d89264909 -a 11.3 -f 0.2`
 
