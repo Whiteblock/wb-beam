@@ -16,14 +16,14 @@ Per test case:
 
 Tests will be conducted using the [Whiteblock](https://www.whiteblock.io) testing platform, a cloud-based SaaS solution. The Whiteblock framework will build and manage the P2P network topology and automate particulate actions in accordance with the proposed scope of work outlined within this document. 
 
-## Node Specifications
+## Per Node Specifications
 
 | Component   | Value                                          |
 |-------------|------------------------------------------------|
 | RAM         | 4GB DDR4                                       |
 | CPU         | Intel Xeon Scalable Processor (Skylake)        |
 | Single-Core Max Turbo Frequency  | 3.5 Ghz                   |
-| Total Node Count  | 32                                       |
+| Total Nodes | 32                                       |
 
 
 ## Performance Metrics
