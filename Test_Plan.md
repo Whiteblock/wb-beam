@@ -56,7 +56,7 @@ which define the variable to be tested.
 
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
-| Miners           | 10          | 20          | 30          |
+| __Miners__           | 10          | 20          | 30          |
 | Transaction Nodes| 2           | 2           | 2           |
 | Sent Tx Per Node | 100         | 100         | 100         |
 | Bandwidth        | 1Gb         | 1Gb         | 1Gb         |
