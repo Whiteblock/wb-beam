@@ -37,10 +37,6 @@ coordinating the tests.  Assuming the coordinating node's clock hasn't been temp
 | Block Propagation Time    | The length of time it takes for a block to be received by all nodes within the network. |
 | Orphan Rate    	        | The frequency at which orphan blocks are mined and broadcast.                           | 
 | Transactions Throughput   | The total amount of transactions which can be successfully processed per second.  |
-| Transactions Request Latency | Transaction time begins when a transaction is submitted and ends when the UTXO is transferred to the receiving account | 
-|  Network Utilization Rate | Amount of data being transferred to the percentage of the theoretical maximum network rate |
-| CPU Utilization Rate | Percent CPU utilization over a time interval |
-| Saturation | Measured as the size of txpool|
 
 
 ## Performance Tests
@@ -51,6 +47,11 @@ on performance. Each test series is comprised of three separate test cases
 which define the variable to be tested. 
 
 (_Note_: The numbers listed below are subjected to change)
+
+
+## Transaction Test Options: 
+- Streaming Requests: Continuously and consistently sending transactions one at a time
+- Batch Requests: Periodically sending batch of transactions. 
 
 ### Series 1: Number of Miners
 
@@ -130,17 +131,3 @@ which define the variable to be tested.
 | __Packet Loss__     | 0.01%       | 0.5%        | 1.0%        |
 
 
-
-### TODO: 
-
-USE Method Measurements
-- Utility: measured by average utilization rate
-- Saturation: measured by average queue length
-- Error: measured by error count during a period of time
-
-Measure Request Latency: measured by the time from a client sending a transaction request to the client receiving a response (e.g.: a transaction confirmation)
-
-Measure Peer Discovery Performance
-
-Measure Network Utilization: Amount of data being transferred and percent of theoretical maximum rate attained 
-Measure CPU Utilization:  Percent utilization over a time interval
