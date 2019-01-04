@@ -40,58 +40,77 @@ Size of tx???
 
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
-| Miners       | 300         | 600         | 1000        |
+| __Miners__       | 300         | 600         | 1000        |
 | Non-Miner Nodes     | 600         | 600         | 600         |
-| Number of Txs |  xxxx  |  xxxx  |   xxxx    |   xxxx   |
+| Number of Txs Per Node |  100  |  100  |   100     |
+| Size of Txs |  10Mb  |  10Mb  |   10Mb     |
 | Bandwidth        | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 2: Number of Non-Miner Nodes
+### Series 2: Number of Transactions per Node
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
 | Miners      | 600         | 600         | 600         |
-| Non-Miner Nodes    | 300         | 600         | 1000        |
-| Number of Txs |  xxxx  |  xxxx  |   xxxx    |   xxxx   |
+| Non-Miner Nodes    | 600         | 600         | 600        |
+| __Number of Txs Per Node Per Second__ |  100  |  200  |   300     |
+| Size of Txs |  10Mb  |  10Mb  |   10Mb    |
+| Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
+| Network Latency | 0ms         | 0ms         | 0ms         |
+| Packet Loss     | 0%          | 0%          | 0%          |
+
+
+### Series 3: Size of Transactions
+
+| Variable        | Test Case A | Test Case B | Test Case C |
+|-----------------|------------:|------------:|------------:|
+| Miners      | 600         | 600         | 600         |
+| Non-Miner Nodes    | 600         | 600         | 600        |
+| Number of Txs Per Node Per Second|  100  |  200  |   300     |
+| __Size of Txs__ |  10Mb  |  20Mb  |   30Mb    |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
 
-### Series 3: Bandwidth
+### Series 4: Bandwidth
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
 | Miners      | 1000        | 1000        | 1000        |
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
-| Number of Txs |  xxxx  |  xxxx  |   xxxx    |   xxxx   |
-| Bandwidth       | 5Mb         | 500Mb       | 1G          |
+| Non-Miner Nodes    | 1000        | 1000        | 1000        |
+| Number of Txs Per Node Per Second|  100  |  100  |   100     |
+| __Bandwidth__       | 5Mb         | 500Mb       | 1G          |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 4: Network Latency
+### Series 5: Network Latency
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
 | Miners      | 1000        | 1000        | 1000        |
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
+| Number of Txs Per Node Per Second|  100  |  100  |   100     |
+| Non-Miner Nodes    | 1000        | 1000        | 1000        |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
-| Network Latency | 25ms        | 50ms        | 100ms       |
+| __Network Latency__ | 25ms        | 50ms        | 100ms       |
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 5: Packet Loss
+### Series 6: Packet Loss
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
 | Miners      | 1000        | 1000        | 1000        |
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
-| Number of Txs |  xxxx  |  xxxx  |   xxxx    |   xxxx   |
+| Number of Txs Per Node Per Second|  100  |  100  |   100     |
+| Size of Txs |  10Mb  |  10Mb  |   10Mb    |
 | Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
 | Network Latency | 0ms         | 0ms         | 0ms         |
-| Packet Loss     | 0.01%       | 0.5%        | 1.0%        |
+| __Packet Loss__     | 0.01%       | 0.5%        | 1.0%        |
 
