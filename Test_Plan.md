@@ -14,7 +14,7 @@ Per test case:
 
 ## Test Utilities  
 
-Tests will be conducted using the [Whiteblock](https://www.whiteblock.io) testing platform, a cloud-based SaaS solution. The Whiteblock framework will build and manage the P2P network topology and automate particulate actions in accordance with the proposed scope of work outlined within this document. 
+Tests will be conducted using the [Whiteblock](https://www.whiteblock.io) testing platform, a cloud-based SaaS solution. The Whiteblock framework will build and manage the P2P network topology and automate particular actions in accordance with the proposed scope of work outlined within this document. 
 
 ## Per Node Specifications
 
@@ -36,7 +36,7 @@ coordinating the tests.  Assuming the coordinating node's clock hasn't been temp
 | Peer Discovery Time	(ms)        | The length of time it takes for a node to become aware of its peers within the network. | 
 | Block Propagation Time (ms)   | The length of time it takes for a block to be received by all nodes within the network. |
 | Orphan Rate (%)	        | The frequency at which orphan blocks are mined and broadcast. |
-| Transactions Throughput (tx/s)  | The total amount of transactions which can be successfully processed per second.  |
+| Transaction Throughput (tx/s)  | The total amount of transactions which can be successfully processed per second.  |
 
 
 ## Performance Tests
@@ -50,15 +50,15 @@ which define the variable to be tested.
 
 ## Transaction Test Options: 
 - __Streaming Requests__: Continuously and consistently sending transactions one at a time
-- __Batch Requests__: Periodically sending batch of transactions. 
+- __Batch Requests__: Periodically sending a batch of transactions. 
 
 ### Series 1: Number of Miners
 
 | Variable         | Test Case A | Test Case B | Test Case C |
 |------------------|------------:|------------:|------------:|
 | Miners           | 10          | 20          | 30          |
-| Transaction Nodes| 22          | 12          | 2           |
-| Sent Tx Per Node |  100        |  100        | 100         |
+| Transaction Nodes| 2           | 2           | 2           |
+| Sent Tx Per Node | 100         | 100         | 100         |
 | Bandwidth        | 1Gb         | 1Gb         | 1Gb         |
 | Network Latency  | 0ms         | 0ms         | 0ms         |
 | Packet Loss      | 0%          | 0%          | 0%          |
@@ -83,7 +83,7 @@ which define the variable to be tested.
 | Miners      | 1000        | 1000        | 1000        |
 | Transaction Nodes    | 1000        | 1000        | 1000        |
 | Number of Txs Per Node Per Second|  100  |  100  |   100     |
-| __Bandwidth__       | 1Gb         | 3Gb       | 5Gb          |
+| __Bandwidth__       | 30Mb        | 100Mb     | 500Mb        |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
 
