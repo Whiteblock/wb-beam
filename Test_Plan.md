@@ -46,12 +46,11 @@ series focuses on observing and documenting the effects of certain conditions
 on performance. Each test series is comprised of three separate test cases
 which define the variable to be tested. 
 
-(_Note_: The numbers listed below are subjected to change)
 
 
 ## Transaction Test Options: 
-- Streaming Requests: Continuously and consistently sending transactions one at a time
-- Batch Requests: Periodically sending batch of transactions. 
+- __Streaming Requests__: Continuously and consistently sending transactions one at a time
+- __Batch Requests__: Periodically sending batch of transactions. 
 
 ### Series 1: Number of Miners
 
@@ -73,26 +72,12 @@ which define the variable to be tested.
 | Non-Miner Nodes    | 600         | 600         | 600        |
 | __Number of Txs Per Node Per Second__ |  100  |  200  |   300     |
 | Size of Txs |  10Mb  |  10Mb  |   10Mb    |
-| Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
+| Bandwidth       | 1Gb         | 1Gb         | 1Gb        |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 3: Size of Transactions
-
-| Variable        | Test Case A | Test Case B | Test Case C |
-|-----------------|------------:|------------:|------------:|
-| Miners      | 600         | 600         | 600         |
-| Non-Miner Nodes    | 600         | 600         | 600        |
-| Number of Txs Per Node Per Second|  100  |  200  |   300     |
-| __Size of Txs__ |  10Mb  |  20Mb  |   30Mb    |
-| Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
-| Network Latency | 0ms         | 0ms         | 0ms         |
-| Packet Loss     | 0%          | 0%          | 0%          |
-
-
-
-### Series 4: Bandwidth
+### Series 3: Bandwidth
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -100,12 +85,12 @@ which define the variable to be tested.
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
 | Number of Txs Per Node Per Second|  100  |  100  |   100     |
-| __Bandwidth__       | 5Mb         | 500Mb       | 1G          |
+| __Bandwidth__       | 1Gb         | 3Gb       | 5Gb          |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 5: Network Latency
+### Series 4: Network Latency
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -113,12 +98,12 @@ which define the variable to be tested.
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
 | Number of Txs Per Node Per Second|  100  |  100  |   100     |
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
-| Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
+| Bandwidth       | 1Gb        | 1Gb         | 1Gb        |
 | __Network Latency__ | 25ms        | 50ms        | 100ms       |
 | Packet Loss     | 0%          | 0%          | 0%          |
 
 
-### Series 6: Packet Loss
+### Series 5: Packet Loss
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
@@ -126,7 +111,7 @@ which define the variable to be tested.
 | Non-Miner Nodes    | 1000        | 1000        | 1000        |
 | Number of Txs Per Node Per Second|  100  |  100  |   100     |
 | Size of Txs |  10Mb  |  10Mb  |   10Mb    |
-| Bandwidth       | 5Mb         | 5Mb         | 5Mb         |
+| Bandwidth       | 1Gb         | 1Gb         | 1Gb        |
 | Network Latency | 0ms         | 0ms         | 0ms         |
 | __Packet Loss__     | 0.01%       | 0.5%        | 1.0%        |
 
