@@ -130,6 +130,9 @@ which define the variable to be tested.
 ### TODO: 
 
 USE Method Measurements
-- Utility (Measured by Average Utilization Rate)
-- Saturation (Measured by Average Queue Length)
-- Error (Measured by Error Count during a period of time)
+- Utility: measured by average utilization rate
+- Saturation: measured by average queue length
+- Error: measured by error count during a period of time
+
+Measure Request Latency: measured by the time from a client sending a transaction request to the client receiving a response (e.g.: a transaction confirmation)
+
