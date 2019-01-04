@@ -33,10 +33,14 @@ coordinating the tests.  Assuming the coordinating node's clock hasn't been temp
 
 | Value			            | Description | 
 | ------------------------- | -------- | 
-| Bootstrap Time	        | The length of time it takes for a node to become aware of its peers within the network. | 
+| Peer Discovery Time	        | The length of time it takes for a node to become aware of its peers within the network. | 
 | Block Propagation Time    | The length of time it takes for a block to be received by all nodes within the network. |
 | Orphan Rate    	        | The frequency at which orphan blocks are mined and broadcast.                           | 
-| Transactions Per Second   | The total amount of transactions which can be successfully processed per second. Transaction time begins when a transaction is submitted and ends when the UTXO is transferred to the receiving account. |
+| Transactions Throughput   | The total amount of transactions which can be successfully processed per second.  |
+| Transactions Request Latency | Transaction time begins when a transaction is submitted and ends when the UTXO is transferred to the receiving account | 
+|  Network Utilization Rate | Amount of data being transferred to the percentage of the theoretical maximum network rate |
+| CPU Utilization Rate | Percent CPU utilization over a time interval |
+| Saturation | Measured as the size of txpool|
 
 
 ## Performance Tests
@@ -136,3 +140,7 @@ USE Method Measurements
 
 Measure Request Latency: measured by the time from a client sending a transaction request to the client receiving a response (e.g.: a transaction confirmation)
 
+Measure Peer Discovery Performance
+
+Measure Network Utilization: Amount of data being transferred and percent of theoretical maximum rate attained 
+Measure CPU Utilization:  Percent utilization over a time interval
