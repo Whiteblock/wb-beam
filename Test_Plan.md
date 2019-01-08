@@ -79,8 +79,8 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
-| Miners      | 600         | 600         | 600         |
-| Transaction Nodes    | 600         | 600         | 600        |
+| Miners      | 10         | 10         | 10         |
+| Transaction Nodes    | 2         | 2         | 2        |
 | __Number of Txs Per Node Per Second__ |  100  |  200  |   300     |
 | Bandwidth       | 1Gb         | 1Gb         | 1Gb        |
 | Network Latency | 0ms         | 0ms         | 0ms         |
@@ -91,8 +91,8 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
-| Miners      | 1000        | 1000        | 1000        |
-| Transaction Nodes    | 1000        | 1000        | 1000        |
+| Miners     | 10         | 10         | 10         |
+| Transaction Nodes    | 2         | 2         | 2        |
 | Number of Txs Per Node Per Second|  100  |  100  |   100     |
 | __Bandwidth__       | 30Mb        | 100Mb     | 500Mb        |
 | Network Latency | 0ms         | 0ms         | 0ms         |
@@ -103,8 +103,8 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
-| Miners      | 1000        | 1000        | 1000        |
-| Transaction Nodes    | 1000        | 1000        | 1000        |
+| Miners      | 10         | 10         | 10         |
+| Transaction Nodes    | 2         | 2         | 2        |
 | Number of Txs Per Node Per Second|  100  |  100  |   100     |
 | Bandwidth       | 1Gb        | 1Gb         | 1Gb        |
 | __Network Latency__ | 25ms        | 50ms        | 100ms       |
@@ -115,8 +115,8 @@ which define the variable to be tested.
 
 | Variable        | Test Case A | Test Case B | Test Case C |
 |-----------------|------------:|------------:|------------:|
-| Miners      | 1000        | 1000        | 1000        |
-| Transaction Nodes    | 1000        | 1000        | 1000        |
+| Miners      || 10         | 10         | 10         |
+| Transaction Nodes    | 2         | 2         | 2        |
 | Number of Txs Per Node Per Second|  100  |  100  |   100     |
 | Bandwidth       | 1Gb         | 1Gb         | 1Gb        |
 | Network Latency | 0ms         | 0ms         | 0ms         |
